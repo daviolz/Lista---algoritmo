@@ -1,0 +1,23 @@
+programa {
+
+ funcao inicio (){
+inteiro cont, valor, x 
+escreva ("Informe o valor que deseja saber o fatorial: ")
+leia  (valor)
+ escreva  (valor,"!", "\n")
+ cont = valor
+enquanto (valor > 1) {
+	 escreva (valor, "\n")
+	se (valor > 1) {
+		escreva ("X", "\n")
+		escreva ("1", "\n")
+	}
+	
+	valor = valor - 1
+	cont = cont * valor
+	
+}
+escreva (" = ", cont)
+
+}
+}
