@@ -1,0 +1,12 @@
+programa {
+
+ funcao inicio (){
+inteiro cont
+cont = 10
+enquanto (cont > 0) {
+ escreva(cont , " ")
+ cont = cont - 1
+} 
+
+}
+}
