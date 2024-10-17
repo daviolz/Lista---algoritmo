@@ -1,0 +1,24 @@
+programa 
+{
+	funcao inicio()
+	{
+		inteiro n1, n2, n3, soma 
+		real media
+		
+		escreva("Informe o valor do primeiro número \n")
+	
+		leia(n1)
+		
+		escreva("Informe o valor do segundo número \n")
+		leia(n2)
+		
+        escreva("Informe o valor do terceiro número \n")
+		leia(n3)
+		
+		soma = n1 + n2 + n3
+		media = soma / 3
+		
+		escreva("a soma dos números e de: ", soma, "\n")
+		escreva("a média dos números e de: ", media)	
+	} 
+}
