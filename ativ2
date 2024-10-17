@@ -1,0 +1,19 @@
+programa 
+{
+	funcao inicio()
+	{
+		inteiro n1, n2, soma
+		
+		escreva("Informe o valor do primeiro número \n")
+	
+		leia(n1)
+		
+		escreva("Informe o valor do segundo número \n")
+		leia(n2)
+		
+		soma = n1 + n2
+		
+		escreva("A soma dos dois números é igual a: ", soma)
+	}
+}
+	
