@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    inteiro n, cont, soma,total
+    cont = 1 
+    soma = 2
+    total= 1
+    escreva("Informe o numero limite: ")
+    leia(n)
+
+    enquanto(cont < n){
+      total = total + soma
+      soma = soma + 1
+      cont = cont + 1
+    }
+    escreva ("A soma de todos os numeros naturais até o numero limete é de: ", total)
+    
+  }
+}
