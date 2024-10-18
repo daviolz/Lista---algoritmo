@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    inteiro n, cont, soma,total, n1, n2 
+    cont = 1 
+    soma = 2
+    total= 1
+    n1 = 1 
+    n2 = 1 
+    escreva("Informe o numero limite para a sequência Fibonacci: ")
+    leia(n)
+    escreva("1 1 ")
+
+    enquanto(cont < n+1){
+      total = n1 + n2
+      n1 = n2
+      n2 = total
+      cont = cont + 1
+      escreva(total, " ")
+    }
+  }
+}
